@@ -1,0 +1,210 @@
+<!doctype html>
+
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <title> Contact Sami </title>
+  </head>
+
+
+
+  <style type="text/css">
+
+  body {background: #f5fec9 url(images/body-bg.jpg) repeat-x center top;
+  }
+    h1 {font-style: normal;
+        color: white;
+        padding: 8px;
+        text-align: center;
+        font-family:avenir;
+        font-weight: lighter;
+        background: -webkit-gradient(linear, left bottom, left top, from(#585858), to(#1C1C1C));
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+
+    .t01{border: 1px solid white;
+                border-collapse: collapse;
+                background: -webkit-gradient(linear, left bottom, left top, from(#585858), to(#1C1C1C));
+                margin-left: 2px;
+                border-radius: 5px;
+                border-color: #b3b3b3;
+                border-color: white;
+
+
+    }
+
+    .tr1,.td1 {padding: 8px;
+          text-align: center;
+          font-family: avenir;
+          font-style: normal;
+          font-weight:500;
+          font-size: 17px;
+          color: white;
+          border: 1px solid white;
+          }
+
+
+    .main{border: 2px ;
+          padding: 10px;
+          background-color: white;
+          text-align: left;
+          text-align: top;
+          vertical-align: top;
+          box-shadow: 0px 0px 3px #EFF8FB;
+          top: 20px;
+          position: relative;
+          padding-right: 50px;
+          padding-left: 30px;
+          border-radius: 10px;
+          border-right: 100px;
+        }
+
+    .home,.about,.work,.project,.cv,.contact:link {color: white;}
+    .home,.about,.work,.project,.cv,.contact::hover{color: grey;}
+    .home,.about,.work,.project,.cv,.contact::visited{color: white}
+
+    a {text-decoration: none;}
+
+
+    #dp {margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    #name {margin-left: 35px;}
+    #info {margin-left: 15px;
+          font-size: 13px}
+
+   .imageLinks {margin: auto;
+                margin-top: 3px;
+                margin-left: 25px;
+                padding: 1px;
+                width: 200px;
+   }
+
+  </style>
+
+  <body>
+
+    <h1> SAMI AHMAD KHAN</h1>
+
+    <table class="t01" style="width:100%"> <!-- Drawing Tables -->
+      <tr class="tr1">
+        <td class="td1"><a class="home" href="index.html">Home</a></td> <!-- Links within a page -->
+        <td class="td1"><a class="about" href="blogs.html">My Blogs</a></td>
+        <td class="td1"><a class="work" href="work.html">Work Experience</a><br /></td>
+        <td class="td1"><a class="project" href="project.html">Projects</a></td>
+        <td class="td1"><a class="cv" href="cv.html">CV</a></td>
+        <td class="td1"><a class="contact"href="contact.html">Contact</a></td>
+      </tr>
+    </table>
+
+    <table style="width:100%">
+      <tr>
+        <td style="width:20%" >
+          <img id="dp" src="myface.jpg" height="240" width="190"/>
+          <div id="profileBox" >
+            <p id="name" style="color:black; font-weight:500; font-family:avenir">Sami Ahmad Khan</p>
+            <p id="info" style="color:black; font-family:avenir">Illinois Institute of Technology<br/>
+                                                          Masters 2017<br/>
+                                                          Major: Computer Science</p>
+            <p></p>
+            <p class="imageLinks">
+              <a href="Resume.pdf" download><img src="resume.png" style="border:0px;margin:0px;float:left;width:40px;" /></a>
+              <a href="https://www.linkedin.com/in/samiahmadkhan"><img src="linkedin.ico" style="border:0px;margin:0px;float:left;width:40px;" /></a>
+              <a href="https://github.com/skhan75"><img src="git.png"  style="border:0px;margin:0px;float:left;width:40px;" /></a>
+            </p>
+          </div>
+        </td>
+
+
+      <td style="width:70%"class="main">
+        <hr/>
+        <h4>Contact Me</h4>
+        <hr/>
+        <form name="htmlform" method="post" action="html_form_send.php">
+          <table width="450px">
+          </tr>
+      <tr>
+         <td valign="top">
+          <label for="first_name">First Name *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="first_name" maxlength="50" size="30">
+         </td>
+        </tr>
+
+      <tr>
+         <td valign="top">
+          <label for="last_name">Last Name *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="last_name" maxlength="50" size="30">
+         </td>
+      </tr>
+
+      <tr>
+         <td valign="top">
+          <label for="email">Email Address *</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="email" maxlength="80" size="30">
+         </td>
+
+      </tr>
+
+      <tr>
+         <td valign="top">
+          <label for="telephone">Telephone Number</label>
+         </td>
+         <td valign="top">
+          <input  type="text" name="telephone" maxlength="30" size="30">
+         </td>
+        </tr>
+        <tr>
+         <td valign="top">
+          <label for="comments">Comments *</label>
+         </td>
+         <td valign="top">
+          <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" style="text-align:center">
+          <input type="submit" value="Submit">( <a href="http://www.freecontactform.com/html_form.php">HTML Form</a> )
+         </td>
+      </tr>
+    </table>
+  </form>
+
+
+</td>
+
+<td style="width:10%">
+</td>
+
+</tr>
+
+
+</table>
+<table class="copyright"style="text-align:center; width:100%">
+  <tr>
+    <br/>
+    <br/>
+    <br/>
+    <td> &#169 2015 Sami Ahmad Khan.|<a class="privacy" href="https://www.plagiarismtoday.com/privacy.html">Privacy</a>|
+      <br/>
+      <br/>
+    </td>
+  </tr>
+</table>
+      <div id="mainBox">
+      </div>
+
+
+
+</body>
+
+</html>

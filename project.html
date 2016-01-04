@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html>
+  <head>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+    <title> Projects </title>
+  </head>
+
+
+
+  <style type="text/css">
+
+  body {background: #f5fec9 url(images/body-bg.jpg) repeat-x center top;
+  }
+    h1 {font-style: normal;
+        color: white;
+        padding: 8px;
+        text-align: center;
+        font-family:avenir;
+        font-weight: lighter;
+        background: -webkit-gradient(linear, left bottom, left top, from(#585858), to(#1C1C1C));
+        border: 1px solid grey;
+        border-radius: 5px;
+    }
+
+    .t01{border: 1px solid white;
+                border-collapse: collapse;
+                background: -webkit-gradient(linear, left bottom, left top, from(#585858), to(#1C1C1C));
+                margin-left: 2px;
+                border-radius: 5px;
+                border-color: #b3b3b3;
+                border-color: white;
+
+
+    }
+
+    .tr1,.td1 {padding: 8px;
+          text-align: center;
+          font-family: avenir;
+          font-style: normal;
+          font-weight:500;
+          font-size: 17px;
+          color: white;
+          border: 1px solid white;
+          }
+
+
+    .main{border: 2px ;
+          padding: 10px;
+          background-color: white;
+          text-align: left;
+          text-align: top;
+          vertical-align: top;
+          box-shadow: 0px 0px 3px #EFF8FB;
+          top: 20px;
+          position: relative;
+          padding-right: 50px;
+          padding-left: 30px;
+          border-radius: 10px;
+          border-right: 100px;
+        }
+
+    .home,.about,.work,.project,.cv,.contact:link {color: white;}
+    .home,.about,.work,.project,.cv,.contact::hover{color: grey;}
+    .home,.about,.work,.project,.cv,.contact::visited{color: white}
+
+    a {text-decoration: none;}
+
+
+    #dp {margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    #name {margin-left: 35px;}
+    #info {margin-left: 15px;
+          font-size: 13px}
+
+   .imageLinks {margin: auto;
+                margin-top: 3px;
+                margin-left: 25px;
+                padding: 1px;
+                width: 200px;
+   }
+
+  </style>
+
+  <body>
+
+    <h1> SAMI AHMAD KHAN</h1>
+
+    <table class="t01" style="width:100%"> <!-- Drawing Tables -->
+      <tr class="tr1">
+        <td class="td1"><a class="home" href="index.html">Home</a></td> <!-- Links within a page -->
+        <td class="td1"><a class="about" href="blogs.html">My Blogs</a></td>
+        <td class="td1"><a class="work" href="work.html">Work Experience</a><br /></td>
+        <td class="td1"><a class="project" href="project.html">Projects</a></td>
+        <td class="td1"><a class="cv" href="cv.html">CV</a></td>
+        <td class="td1"><a class="contact"href="contact.html">Contact</a></td>
+      </tr>
+    </table>
+
+    <table style="width:100%">
+      <tr>
+        <td style="width:20%" >
+          <img id="dp" src="myface.jpg" height="240" width="190"/>
+          <div id="profileBox" >
+            <p id="name" style="color:black; font-weight:500; font-family:avenir">Sami Ahmad Khan</p>
+            <p id="info" style="color:black; font-family:avenir">Illinois Institute of Technology<br/>
+                                                          Masters 2017<br/>
+                                                          Major: Computer Science</p>
+            <p></p>
+            <p class="imageLinks">
+              <a href="Resume.pdf" download><img src="resume.png" style="border:0px;margin:0px;float:left;width:40px;" /></a>
+              <a href="https://www.linkedin.com/in/samiahmadkhan"><img src="linkedin.ico" style="border:0px;margin:0px;float:left;width:40px;" /></a>
+              <a href="https://github.com/skhan75"><img src="git.png"  style="border:0px;margin:0px;float:left;width:40px;" /></a>
+            </p>
+          </div>
+        </td>
+
+
+      <td style="width:70%"class="main">
+        <hr/>
+        <h4>Projects Done</h4>
+        <hr/>
+        <p>Following are the projects that I have done as a part of my academic curriculum:-</p>
+        <p><b>1. AUTOMATIC FIRE EXTINGUISHER</b> (Undergrad - Final Year)</p>
+        <p>Designed a fully functional fire extinguisher Robot that will automatically detect fire in a closed place and extinguishes it. Microcontroller designed using MATLAB.</p>
+        <p> <a href="FireRobot.pdf">     Project Report</a></p>
+        <br/>
+
+        <p><b>2. DE-CENTRALIZED PEER to PEER FILE TRANSFER SYSTEM </b> (Master's - First Sem (Advance Operating System))</p>
+        <p>This project is Java Based Decentralized Peer to Peer File Sharing System. Point-to-Point (P2P) technology enables the sharing of computer resources such as files by a direct exchange between end-user's computers. That means files are not stored on a central server. Instead, client software works as a server for shared files on an individual's computer. This allows each computer with the software to act as a mini-server from which other P2P users can download files.</p>
+        <p><a href="https://github.com/skhan75/A-Simple-De-centralized-P2P-system">Click here</a> to view the source files in Github</p>
+        See the Files:<br/>
+        <a href="P2P/design.pdf">Design Document</a><br/>
+        <a href="P2P/output.pdf">Output File</a><br/>
+        <a href="P2P/performance.pdf">Performace Evaluation</a><br/>
+        <br/>
+        <p><b>3. LINK STATE ROUTING SIMULATOR</b> (Master's - First Sem (Computer Networks))</p>
+        <p>Implemented the Link-state Routing Simulator to generate the connection table of a router and to find the shortest path using Dijkstra's algorithm in Java and creating the GUI for the same using Java Servlets Pages(JSPs)</p>
+        <p><a href="https://github.com/skhan75/Link-State-Routing-Protocol-using-Djikstra-s-Algorithm">Click here</a> to view the source files in Github</p>
+        See the Files:<br/>
+        <a href="CN/design.pdf">Design Document</a><br/>
+        <a href="CN/testReport.pdf">Test Report</a><br/>
+        <br/>
+
+      </td>
+
+      <td style="width:10%">
+      </td>
+    </tr>
+    
+    <table class="copyright"style="text-align:center; width:100%">
+      <tr>
+        <br/>
+        <br/>
+        <br/>
+        <td> &#169 2015 Sami Ahmad Khan.|<a class="privacy" href="https://www.plagiarismtoday.com/privacy.html">Privacy</a>|
+          <br/>
+          <br/>
+        </td>
+      </tr>
+    </table>
+
+</table>
+      <div id="mainBox">
+      </div>
+
+
+
+  </body>
+
+</html>
